@@ -10,7 +10,6 @@
     "test": "node --expose_gc ./node_modules/.bin/nodeunit test",
     "install": "node ./checkwin"
   },
-
   "repository": {
     "type": "git",
     "url": "http://github.com/polotek/libxmljs.git"
@@ -25,7 +24,8 @@
   },
   "dependencies": {
     "bindings": "1.2.1",
-    "nan": "2.0.7"
+    "nan": "2.0.7",
+    "node-sass": "^3.4.2"
   },
   "devDependencies": {
     "nodeunit": "0.9.0"
