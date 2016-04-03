@@ -5,10 +5,12 @@
     "Jeff Smick"
   ],
   "description": "libxml bindings for v8 javascript engine",
-  "version": "0.17.1",
+  "version": "0.18.1",
   "scripts": {
-    "test": "node --expose_gc ./node_modules/.bin/nodeunit test"
+    "test": "node --expose_gc ./node_modules/.bin/nodeunit test",
+    "install": "node ./checkwin"
   },
+
   "repository": {
     "type": "git",
     "url": "http://github.com/polotek/libxmljs.git"
